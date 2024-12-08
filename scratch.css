@@ -1,0 +1,95 @@
+/* Style the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #E6E6FA;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Style all headings (h1, h2, h3, etc.) */
+h1, h2, h3 {
+    color: #333;
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Style paragraphs */
+p {
+    color: #555;
+    font-size: 16px;
+    margin: 10px 0;
+    text-align: justify;
+}
+
+/* Style the Back to Top link */
+#video a {
+    display: inline-block;
+    margin-top: 20px;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#video a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+/* Style images */
+img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Style the video section */
+#video {
+    background-color: #f0f8ff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Add some padding to all sections */
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+/* Style unordered and ordered lists */
+ul, ol {
+    margin: 20px;
+    padding-left: 40px;
+}
+
+li {
+    margin: 5px 0;
+}
+
+/* Add a hover effect for links */
+a {
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+/* Add custom footer styling (if needed) */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    margin-top: 30px;
+}
